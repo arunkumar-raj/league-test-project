@@ -1,0 +1,20 @@
+.ltp_teams_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.ltp_team {
+    display: flex;
+    padding: 3%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: row;
+    gap: 15px;
+}
+.ltp_media {
+    display: flex;
+    flex: 1 0 200px;
+}
